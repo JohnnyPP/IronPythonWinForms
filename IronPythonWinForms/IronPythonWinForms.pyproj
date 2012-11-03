@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{879dabda-e285-4c47-93f3-2da74dc5b572}</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>IronPythonWinForms.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <IsWindowsApplication>True</IsWindowsApplication>
+    <InterpreterId>fcc291aa-427c-498c-a4d7-4502d6449b8c</InterpreterId>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterVersion>2.7</InterpreterVersion>
+    <OutputPath>.</OutputPath>
+    <Name>IronPythonWinForms</Name>
+    <RootNamespace>IronPythonWinForms</RootNamespace>
+    <CommandLineArguments />
+    <InterpreterPath />
+    <InterpreterArguments />
+    <DebugStdLib>True</DebugStdLib>
+    <DjangoSettingsModule />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="IronPythonWinForms.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>
